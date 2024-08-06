@@ -57,8 +57,9 @@
 
     // activity 3
 
-var myDate = new Date('1982-11-21');
-    
-console.log(new Date);
 
+    let today = new Date();
+    let myBday = new Date('11 november, 1982')
+    let daysToo = 
+console.log(myBday)
     
