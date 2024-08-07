@@ -50,12 +50,19 @@
 
 // activity 3
 
-let accnumber = 5044992;
+const cashWithdrawal = (amount = 800, accnum = 1234) => {
+    if (accnum !== 1234){
+        console.log("incorerect pin")
+        return;
+}
+   
+    
+if (accnum === 1234 && amount <= 800){
+    console.log(`withdrawing ; ${amount} from account ${accnum}`);
 
-const cashWithdrawal = (amount, accnum) => {
-
-    console.log(`withdrawing ${amount} from account ${accnum}`);
+} else {
+    console.log("not enough funds")
+}
 }
 
-cashWithdrawal(300, accnumber);
-cashWithdrawal(30, 5049921);
+cashWithdrawal(800, 1234);
