@@ -58,6 +58,7 @@
 //     console.log('not old enough')
 // }
 
+
 // let age = 19;
 
 // let canDrink = (age < 18) ? 'too young' : 'old enough'
@@ -84,41 +85,19 @@
 // } else  (num / 5 )
 //     console.log('buzz')
 
+//  let age = 19;
 
-// let coffeeOrder = [
-//     "Alex - Cortado",
-//     "ben - Cortado",
-//     "Charlie - Whats new",
-// ];
-// console.log(coffeeOrder);
+// let canDrink = (age < 18) ? 'too young' : 'old enough'
 
+// console.log(canDrink)
 
-// let faveSongs = [
-//     "dancing Queen",
-//     "girl On Fire",
-//     "stand by me",
-//     "walking on sunshine"
-// ];
+let age = 18;
 
-// for (let i = 0; i <  faveSongs.length; i++){
-//     console.log(faveSongs[i]);
-// }
-
-
-// let multiplesTwo = [];
-
-// for (let i = 0; i < 21; i++){
-//     if (i % 2 == 0){
-//         multiplesTwo.push(i);
-//     }
-    
-// }
-// console.log(`Numbers divisible by 2: ${multiplesTwo}`)
-
-
-
-let age = 10;
-while(age < 18 ){
-    console.log("you are a child")
-    age++
+if (age < 18) {
+    console.log('child price £8')
+} else if (age > 18 && 60){
+    console.log()
+    else {
+        console.log('oap price ')
+    }
 }

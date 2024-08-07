@@ -58,8 +58,8 @@
     // activity 3
 
 
-    let today = new Date();
-    let myBday = new Date('11 november, 1982')
-    let daysToo = 
-console.log(myBday)
+//     let today = new Date();
+//     let myBday = new Date('11 november, 1982')
+//     let daysToo = 
+// console.log(myBday)
     
