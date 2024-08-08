@@ -6,7 +6,7 @@
 // ];
 // console.log(coffeeOrder);
 
-
+// activity 1
 // let faveSongs = [
 //     "dancing Queen",
 //     "girl On Fire",
@@ -38,6 +38,7 @@
 // }
 
 
+
 // let cards = [ "Diamonds", "Spade", "Heart", "Club" ];
 // let currentCard = "Club";
 //  while ( currentCard != "Spade"){
@@ -46,3 +47,16 @@
 //     }
 
 //     console.log(currentCard);
+
+// activity1
+
+let filmList =[
+    "die hard",
+    "the matrix",
+    "lord of the rings",
+    "rumble in the bronx",
+    "frozen",
+];
+filmList.pop();
+
+console.log (filmList);
