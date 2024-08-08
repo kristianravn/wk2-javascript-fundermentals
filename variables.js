@@ -21,6 +21,7 @@
 // console.log(`Hi. my name is ${name} . my age is  ${age}  and my favorite drink is  ${favDrink}`)
 
 // activity1
+
 // let name = 'Kris';
 // let age = 41;
 // let favColour = 'red';
@@ -39,8 +40,8 @@
 
 // console.log(`Hi. my name is ${name} . my age is  ${age}  and my favorite drink is  ${favColour}`)
 
-// activity2
 
+// activity2
 
 // let breakfast = 'cornflakes';
 // let lunch = 'subway';
@@ -55,8 +56,7 @@
 
 //     console.log(`For breakfast  tomorrow i will eat ${breakfast}  for lunch tomorrow i will eat ${lunch} and for dinner tomorrow i will eat ${dinner}`)  
 
-    // activity 3
-
+// activity 3
 
 //     let today = new Date();
 //     let myBday = new Date('11 november, 1982')

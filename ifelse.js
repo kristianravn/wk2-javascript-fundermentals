@@ -91,13 +91,13 @@
 
 // console.log(canDrink)
 
-let age = 18;
+// let age = 18;
 
-if (age < 18) {
-    console.log('child price £8')
-} else if (age > 18 && 60){
-    console.log()
-    else {
-        console.log('oap price ')
-    }
-}
+// if (age < 18) {
+//     console.log('child price £8')
+// } else if (age > 18 && 60){
+//     console.log()
+//     else {
+//         console.log('oap price ')
+//     }
+// }
