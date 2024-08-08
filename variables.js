@@ -26,7 +26,7 @@
 // let age = 41;
 // let favColour = 'red';
 
-// console.log(`Hi. my name is ${name} . my age is  ${age}  and my favorite drink is  ${favColour}`)
+// console.log(`Hi. my name is ${name} . my age is  ${age}  and my favorite colour is  ${favColour}`)
 
 //  let name = 'Kris';
 //  let age = 41;
@@ -58,8 +58,20 @@
 
 // activity 3
 
-//     let today = new Date();
+//     let birthday = new Date();
 //     let myBday = new Date('11 november, 1982')
-//     let daysToo = 
+//     let daysToo = 0
 // console.log(myBday)
     
+let today = new Date();
+let myBday = new Date(today.getFullYear(), 10, 21);
+
+if(today.getMonth() == 10 && today.getDate() > 21) {
+    myBday.setFullYear(myBday.getFullYear() + 1)
+}
+
+let one_day = 1000 * 60 * 60 * 24;
+let diff = Math.ceil((myBday.getTime() - today.getTime()) / (one_day));
+
+
+console.log(`${diff} days left to my birthday`);
