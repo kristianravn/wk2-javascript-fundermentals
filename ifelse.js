@@ -92,11 +92,20 @@
 
 
 // activity3
+// const password = "pass"
+
+// switch (true) {
+//     case password.length >= 8:
+//         console.log("password");
+//         break;
+//         case password.length < 8:
+//             console.log("password to short")
+// }
 
 
 
 
-// activity3/stretch
+// activity4
 // let num = 20;
 // if (num / 3){
 //     console.log('fizz')
