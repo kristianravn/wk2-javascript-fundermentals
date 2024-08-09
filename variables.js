@@ -63,15 +63,15 @@
 //     let daysToo = 0
 // console.log(myBday)
     
-let today = new Date();
-let myBday = new Date(today.getFullYear(), 10, 21);
+// let today = new Date();
+// let myBday = new Date(today.getFullYear(), 10, 21);
 
-if(today.getMonth() == 10 && today.getDate() > 21) {
-    myBday.setFullYear(myBday.getFullYear() + 1)
-}
+// if(today.getMonth() == 10 && today.getDate() > 21) {
+//     myBday.setFullYear(myBday.getFullYear() + 1)
+// }
 
-let one_day = 1000 * 60 * 60 * 24;
-let diff = Math.ceil((myBday.getTime() - today.getTime()) / (one_day));
+// let one_day = 1000 * 60 * 60 * 24;
+// let diff = Math.ceil((myBday.getTime() - today.getTime()) / (one_day));
 
 
-console.log(`${diff} days left to my birthday`);
+// console.log(`${diff} days left to my birthday`);
