@@ -32,7 +32,9 @@
 
 // let car = "peugeot";
 
-// if(car == "ford" || car )
+// if(car == "ford" || car == "gm"){
+//     console.log("you've got an american car!");
+// }
 
 // let team = "Liverpool";
 
@@ -49,7 +51,14 @@
 //         console.log("liverpool is number 1!!!");            
 // }
 
+// let age = 19;
 
+// let canDrink = (age < 18) ? 'too young' : 'old enough'
+
+// console.log(canDrink)
+
+
+// activity1
 // let age = 21;
 
 // if (age > 17) {
@@ -58,13 +67,16 @@
 //     console.log('not old enough')
 // }
 
-
-// let age = 19;
+//  let age = 19;
 
 // let canDrink = (age < 18) ? 'too young' : 'old enough'
 
 // console.log(canDrink)
 
+// let age = 18;
+
+
+// activity2
 // let pizzatopping = "chicken";
 
 // switch(pizzatopping){
@@ -79,21 +91,20 @@
 // }
 
 
+// activity3
+
+
+
+
+// activity3/stretch
 // let num = 20;
 // if (num / 3){
 //     console.log('fizz')
 // } else  (num / 5 )
 //     console.log('buzz')
 
-//  let age = 19;
 
-// let canDrink = (age < 18) ? 'too young' : 'old enough'
-
-// console.log(canDrink)
-
-// let age = 18;
-
-// if (age < 18) {
+// if ( age < 18 and == ) {
 //     console.log('child price £8')
 // } else if (age > 18 && 60){
 //     console.log()
